@@ -1,0 +1,274 @@
+
+body{
+    margin-top: 5px;;
+   background-image: url(Image/default.jpg);
+}
+
+.box1{
+    border: 1px solid black;
+    background-color: black;
+    height: 30px;
+}
+
+ul{
+    float: left;
+    color:white;
+}
+
+ul li{
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    left: 230%;
+    width: 100px;
+    font-size: 14px;
+    font-family: barlow condensed,sans-serif;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+h2{
+    position: relative;
+    left: -41.2%;
+    text-transform: uppercase;
+    font-family: barlow condensed,sans-serif;
+    margin-top:4px;
+    font-weight:bolder;
+}
+
+h7{
+   color: #000000;
+   font-size: 50px;
+}
+
+
+
+.subbox{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+ol{
+    float: left;
+
+}
+ol li{
+    float:left;
+    width: 90px;
+    position: relative;
+    left: 135%;
+    list-style-type: none;
+    font-family: barlow condensed,sans-serif;
+    font-size: 18px;
+}
+
+ol li a{
+    text-decoration: none;
+    color:black;
+}
+
+ol li a:hover{
+    border-bottom: 4px solid red;
+}
+
+.search-container{
+    margin-top: auto;
+}
+
+.container{
+    float: middle;
+      border-radius:5px;
+      width: 45%;
+      padding:10px;
+      align:"center";
+      margin-left:25%;
+      margin-top:5%;
+      text-indent: 50px;
+      background-color: rgb(248, 233, 233);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.container  .image-container .image img{
+    width: 350px;
+    height: 300px;
+    align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+  
+  
+    
+}
+
+.container  .image-container .image img:hover{
+    width: 355px;
+    height: 305px;
+   
+    
+}
+
+.container .product .details{
+    border: 1px solid #c0a8a2;
+    background-color:#f3dcdc;
+    width: 350px;
+    height:265px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 52%;
+    margin-top:-36% ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.container .product .details .name{
+    margin-left: -11%;
+    margin-top: 15%;
+    font-size: 40px;
+    font-weight: bold;
+  
+   
+    color: rgb(63, 36, 36);
+}
+
+.container .product .details .price{
+    margin-left: 3%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:4% ;
+    margin-left: 6%;
+    color: rgb(63, 36, 36);
+}
+
+.container .product .details:hover{
+    background:rgb(247, 216, 216);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.container .product  .details button{
+    background-color: #f06846;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:6% ;
+    margin-left:-11%;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+
+    margin-left: 19%;
+
+}
+
+.container .product  .details button:hover{
+    background-color: #ff2600;
+    color: white;
+ 
+}
+
+
+ .search-container input{
+    width:35%;
+    margin-left: 25%;
+    padding: 10px;
+    margin-top: 5%;
+
+    margin-right: 16px;
+    background:rgb(248, 233, 233);
+    font-size: 17px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(238, 234, 232);
+    cursor: pointer;
+  }
+
+  .search-container button{
+    width:10%;
+    margin-left: .01%;
+    padding: 10px;
+    margin-top: 1%;
+
+    margin-right: 16px;
+    background:rgb(248, 233, 233);
+    font-size: 17px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(238, 234, 232);
+    cursor: pointer;
+  }
+ 
+  .search-container input:hover{
+ 
+    background:rgb(247, 216, 216);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+   .search-container button:hover{
+ 
+    background:rgb(247, 216, 216);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+.container .cart img{
+    margin-left: 40%;
+
+
+}
+
+.container .cart span {
+    margin-left: -2%;
+
+	font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 271px;
+  
+    color: rgb(3, 3, 3);
+    width: 14px;
+    height: 13px;
+    text-align: center;
+    }
+    
+    .container .cart span  .amount{
+        margin-left: -350%;
+
+    }
+
+    
+    
+    .container .product .details .nameArt{
+        margin-left: 4%;
+        margin-top: 15%;
+        font-size: 40px;
+        font-weight: bold;
+      
+       
+        color: rgb(63, 36, 36);
+    }
+    
+    
+    .container .product .details .nameStamp{
+        margin-left: 4%;
+        margin-top: 15%;
+        font-size: 40px;
+        font-weight: bold;
+      
+       
+        color: rgb(63, 36, 36);
+    }
+    
+    
+    

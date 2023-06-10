@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contact Us</title>
+		<link rel="stylesheet" href="contact.css">
+	</head>
+	<body>
+		<div class="contact" id="contact">
+			<h1 onClick="toggleClass()">Any Suggestion or Query? Let us know <span></span></h1>
+			<form>
+				<div class="row">
+					<div class="col-2">
+						<label>Name</label>
+						<input type="text" name="" class="text" placeholder="">
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<label>Email</label>
+						<input type="text" name="" class="text" placeholder="Email">
+					</div>
+					<div class="col-2">
+						<label>Contact No</label>
+						<input type="text" name="" class="text" placeholder="+880">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1">
+						<label>Your message</label>
+						<textarea placeholder="Write your message here..."></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1">
+						<input type="submit" name="" value="Send Message">
+					</div>
+				</div>
+			</form>
+		</div>
+		<script type="text/javascript">
+			function toggleClass(){
+				var element = document.getElementById("contact");
+				element.classList.toggle("active")
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+[
+    {
+        "username": "Mahabub32",
+        "email": "alammahabub257@yahoo.com",
+        "password_1": "mm",
+        "password_2": "mm",
+        "phone": "+8801521326952",
+        "address": "Chittagong"
+    },
+    {
+        "username": null,
+        "email": null,
+        "password_1": null,
+        "password_2": null,
+        "phone": null,
+        "address": null
+    },
+    {
+        "username": "alammahabub257",
+        "email": "alammahabub257@yahoo.com",
+        "password_1": "mm",
+        "password_2": "mm",
+        "phone": "01521326952",
+        "address": "ccccccccccccccccccccc"
+    },
+    {
+        "username": "Jannatul Tuba",
+        "email": "jannatul@gmail.com",
+        "password_1": "123",
+        "password_2": "123",
+        "phone": "123456789",
+        "address": "Mirpur"
+    },
+    {
+        "username": "Tuba",
+        "email": "jannatul.tuba@gmail.com",
+        "password_1": "123",
+        "password_2": "123",
+        "phone": "1234",
+        "address": "Mirpur"
+    },
+    {
+        "username": "Jt",
+        "email": "jannatul@gmail.com",
+        "password_1": "123",
+        "password_2": "123",
+        "phone": "1234",
+        "address": "Mirpur"
+    },
+    {
+        "username": "Nabila",
+        "email": "nabila@gmail.com",
+        "password_1": "123",
+        "password_2": "123",
+        "phone": "1234",
+        "address": "Mirpur"
+    },
+    {
+        "username": "abc",
+        "email": "jannatul.tuba19@gmail.com",
+        "password_1": "123",
+        "password_2": "123",
+        "phone": "123",
+        "address": "Mirpur"
+    },
+    {
+        "username": "zzz",
+        "email": "jannatul.tuba17122@gmail.com",
+        "password_1": "123",
+        "password_2": "123",
+        "phone": "123",
+        "address": "Mirpur"
+    },
+    {
+        "username": "tuba",
+        "email": "jannatul@gmail.com",
+        "password_1": "123",
+        "password_2": "123",
+        "phone": "1234",
+        "address": "Mirpur"
+    }
+]

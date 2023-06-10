@@ -1,0 +1,234 @@
+body{
+    margin-top: 5px;;
+    background-image: url(Image/default.jpg);
+
+}
+
+.box1{
+    border: 1px solid black;
+    background-color: black;
+    height: 30px;
+}
+
+ul{
+    float: left;
+    color:white;
+}
+
+ul li{
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    left: 230%;
+    width: 100px;
+    font-size: 14px;
+    font-family: barlow condensed,sans-serif;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+h2{
+    position: relative;
+    left: -41.2%;
+    text-transform: uppercase;
+    font-family: barlow condensed,sans-serif;
+    margin-top:4px;
+    font-weight:bolder;
+}
+h7{
+    color: #000000;
+    font-size: 50px;
+    margin-left: -6%;
+  
+ }
+ 
+.subbox{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+ol{
+    float: left;
+
+}
+ol li{
+    float:left;
+    width: 90px;
+    position: relative;
+    left: 135%;
+    list-style-type: none;
+    font-family: barlow condensed,sans-serif;
+    font-size: 18px;
+}
+
+ol li a{
+    text-decoration: none;
+    color:black;
+}
+
+ol li a:hover{
+    border-bottom: 4px solid red;
+}
+
+.search-container{
+    margin-top: auto;
+}
+
+.product_wrapper {
+	float: middle;
+	 border-radius:5px;
+		padding:10px;
+		align:"center";
+		margin-left:25%;
+		text-indent: 50px;
+		word-spacing: 10px;
+	}
+.product_wrapper:hover {
+	box-shadow: 0 0 0 2px #e5e5e5;
+	cursor:pointer;
+	}
+
+
+	.product_wrapper	.image{
+	    width: 300px;
+	    height: 300px;
+	    padding: 20px;
+	    align: center;
+	    padding: 10px;
+	    box-shadow: 5px 10px #e0dede;
+	  }
+
+.product_wrapper .name {
+	    margin-left: 20%;
+      font-size: 30px;
+      font-weight: bold;
+	}
+
+.product_wrapper .price {
+			margin-left: 20%;
+	    font-size: 20px;
+	    font-weight: bold;
+	    padding-top: 5px;
+	    text-indent: 50px;
+	    color: rgb(63, 36, 36);
+		}
+
+
+.product_wrapper .buy {
+	background-color: #f06846;
+	 border: none;
+	 color: white;
+	 padding: 15px 32px;
+	 text-align: left;
+	 text-decoration: none;
+	 display: inline-block;
+	 font-size: 16px;
+	 margin: 6px 80px;
+	 cursor: pointer;
+	 border-radius: 12px;
+	 transition-duration: 0.4s;
+
+}
+.product_wrapper .buy:hover {
+	background-color: #ff2600;
+	    color: white;
+}
+.message_box .box{
+	margin: 10px 0px;
+    border: 1px solid #2b772e;
+    text-align: center;
+    font-weight: bold;
+    color: #2b772e;
+	}
+
+.cart_div {
+	float:right;
+	font-weight:bold;
+    position:relative;
+  
+	}
+.cart_div a {
+	color:#000;
+	}
+.cart_div span {
+	font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: 13px;
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+	}
+.cart .remove {
+    background: none;
+    border: none;
+    color: #0067ab;
+    cursor: pointer;
+    padding: 0px;
+	}
+.cart .remove:hover {
+	text-decoration:underline;
+	}
+.cartContainer{
+    background-color: #F68B1E;
+}
+
+.table {
+    background: rgb(248, 233, 233);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5px;
+}
+
+
+ 
+.table td {
+	border-bottom: #251616 1px solid;
+    padding: 10px;
+    font-weight: bold;
+
+    }
+    
+   .confirmOrder  button{
+        background-color: #f06846;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 6px 80px;
+        cursor: pointer;
+        border-radius: 12px;
+        transition-duration: 0.4s;
+    
+        margin-left: 30%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .confirmOrder  button:hover {
+        background-color: #ff2600;
+        color: white;
+    
+      }
+
+      .confirmOrder  {
+        background-color:  rgb(248, 233, 233);
+        color: white;
+        width:78%;
+        margin-top: 2%;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+      }
